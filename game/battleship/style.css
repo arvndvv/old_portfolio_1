@@ -393,8 +393,8 @@ h2::after {
 
   #intro{
     display: block;
-	width: 100vw;
-	height: 100vh;
+	width: 100vw !important;
+	height: 100vh !important;
 	margin: 0;
 	padding: 0;
 	position: absolute;
@@ -406,8 +406,9 @@ background:#333;
     background: url(img/mobintro.jpg) !important;;
   
     background-position:center;
-    background-size: cover;
+    background-size: cover !important;
 	  background-size: 100%;
+	  overflow:hidden !important;
 	background-position:0% 55%;
   }
 .credit{

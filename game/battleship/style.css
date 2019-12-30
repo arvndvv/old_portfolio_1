@@ -393,8 +393,8 @@ h2::after {
 
   #intro{
     display: block;
-	width: 720px !important;
-	height:2480px !important;
+	width: 100vw !important;
+	height:100vh !important;
 	margin: 0;
 	padding: 0;
 	position: absolute;
@@ -450,12 +450,12 @@ body{
       background: linear-gradient( 90deg, #42baff, #973dfd,#42baff );
         background-size: auto auto;
     opacity: .7;
-    width: 1000px !important;
+    width: 95vw !important;
     border-radius: 5px;
     background-size: 300%;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 400vh !important;
+    margin-top: 120vw !important;
     
     font-size: 12px;
     animation: bgt 12s linear infinite alternate;

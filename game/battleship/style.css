@@ -43,7 +43,7 @@ body {
   padding: 0;
   overflow: hidden;
   height: 100vh;
-  background: url(img/mobheader4.jpeg);
+  background: url(img/header.jpeg);
   background-size: 170%;
   transition: all 2s;
   animation: bg 40s linear infinite alternate;
@@ -407,6 +407,8 @@ background:#333;
   
     background-position:center;
     background-size: cover;
+	  background-size: 100%;
+	background-position:0% 55%;
   }
 .credit{
   font-size: 14px;
@@ -435,8 +437,10 @@ body{
   80%{
     background: url(img/mobheader5.jpeg);
   }
-  100%{
+  90%{
     background: url(img/mobheader6.jpeg);
   }
-
+  100%{
+    background: url(img/mobheader1.jpeg);
+  }
 }}

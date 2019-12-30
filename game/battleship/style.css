@@ -393,8 +393,8 @@ h2::after {
 
   #intro{
     display: block;
-	width: 500px !important;
-	height: 100% !important;
+	width: 600px !important;
+	height:900px !important;
 	margin: 0;
 	padding: 0;
 	position: absolute;
@@ -408,7 +408,7 @@ background:#333;
     background-position:center;
     background-size: cover !important;
 	  background-size: 100%;
-	  overflow:hidden !important;
+	  
 	background-position:0% 55%;
   }
 .credit{
@@ -419,6 +419,7 @@ left: 15%;
 body{
   background-position:top;
   background-size: 0;
+	overflow:hidden;
   animation: bodyslide 40s linear infinite alternate !important;;
 }
 
@@ -449,13 +450,13 @@ body{
       background: linear-gradient( 90deg, #42baff, #973dfd,#42baff );
         background-size: auto auto;
     opacity: .5;
-    width: 95% !important;
+    width: 450px !important;
     border-radius: 5px;
     background-size: 300%;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 125% !important;
-    background-clip: text;
+    margin-top: 150vh !important;
+    
     font-size: 12px;
     animation: bgt 12s linear infinite alternate;
 }
@@ -463,13 +464,5 @@ body{
   color: rgb(26, 243, 26);
   font-size: 14px;
 }
-	#gameboard {
-  position: absolute;
-  margin: 0 auto 2em auto;
-  width: 500px;
-  height: 500px;
-  margin: 0 auto;
-  left: 2%;
-  top: 15%;
-}
+
 }

@@ -393,7 +393,7 @@ h2::after {
 
   #intro{
     
-    background: url(img/mobintro.jpg);
+    background: url(img/mobintro.jpg) !important;;
   
     background-position:center;
     background-size: initial;
@@ -406,10 +406,10 @@ left: 15%;
 body{
   background-position:top;
   background-size: 0;
-  animation: slideintro 40s linear infinite alternate;
+  animation: bodyslide 40s linear infinite alternate !important;;
 }
 
-@keyframes slideintro{
+@keyframes bodyslide{
   0%{
     background: url(img/mobheader1.jpeg);
   }

@@ -177,6 +177,10 @@ input {
 	background-position:0% 55%;
 }
 .credit{
+  background: #f3f3f3;
+  height: 30px;
+  width: 50%;
+  left: 25%;
 	margin: 0 auto;
 	text-align: center;
 	top: 45vh;
@@ -185,7 +189,8 @@ input {
 	margin: 10px;
 }
 .credit a{
-	text-decoration: none;
+  text-decoration: none;
+  line-height: 30px;
 	color: #0f9ff3;
 }
 .credit a:hover{

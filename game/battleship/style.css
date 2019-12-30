@@ -11,9 +11,7 @@ body {
   animation: bg 40s linear infinite alternate;
 
 }
-#main{
-	visibility:hidden;
-}
+
 h1 {
   font-size: 5em;
   /*margin: 20px auto;*/

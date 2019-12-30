@@ -369,7 +369,7 @@ h2::after {
   margin-left: 0;
 }
 
-@media only screen and min-device-width : 320px) and (max-width: 780px) {
+@media only screen and (min-device-width : 320px) and (max-width: 780px) {
   #gameboard {
     position: absolute;
     margin: 0 auto 2em auto;
@@ -392,17 +392,7 @@ h2::after {
   }
 
   #intro{
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    z-index:5;
-    top:0;
-    transition: all 1s ease-in-out;
-    left: 0;
-    background:#333;
+    
     background: url(img/mobintro.jpg);
   
     background-position:center;
@@ -418,7 +408,7 @@ body{
   background-size: 0;
   animation: slideintro 40s linear infinite alternate;
 }
-}
+
 @keyframes slideintro{
   0%{
     background: url(img/mobheader1.jpeg);
@@ -439,4 +429,4 @@ body{
     background: url(img/mobheader6.jpeg);
   }
 
-}
+}}

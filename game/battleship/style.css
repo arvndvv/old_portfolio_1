@@ -43,7 +43,7 @@ body {
   padding: 0;
   overflow: hidden;
   height: 100vh;
-  background: url(img/header.jpeg);
+  background: url(img/mobheader4.jpeg);
   background-size: 170%;
   transition: all 2s;
   animation: bg 40s linear infinite alternate;

@@ -390,4 +390,53 @@ h2::after {
     width: 50px;
     height: 50px;
   }
+
+  #intro{
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    z-index:5;
+    top:0;
+    transition: all 1s ease-in-out;
+    left: 0;
+    background:#333;
+    background: url(img/mobintro.jpg);
+  
+    background-position:center;
+    background-size: initial;
+  }
+.credit{
+  font-size: 14px;
+  width: 70%;
+left: 15%;
+}
+body{
+  background-position:top;
+  background-size: 0;
+  animation: slideintro 40s linear infinite alternate;
+}
+}
+@keyframes slideintro{
+  0%{
+    background: url(img/mobheader1.jpeg);
+  }
+  20%{
+    background: url(img/mobheader2.jpeg);
+  }
+  40%{
+    background: url(img/mobheader3.jpeg);
+  }
+  60%{
+    background: url(img/mobheader4.jpeg);
+  }
+  80%{
+    background: url(img/mobheader5.jpeg);
+  }
+  100%{
+    background: url(img/mobheader6.jpeg);
+  }
+
 }

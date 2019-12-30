@@ -11,7 +11,7 @@ function togglePlay() {
   var main = document.getElementById("main");
   intro.style.opacity = 0;
   intro.style.visibility = "hidden";
-  main.style.visibility = "visible";
+ 
 }
 myAudio.onplaying = function() {
   isPlaying = true;

@@ -396,7 +396,7 @@ h2::after {
     background: url(img/mobintro.jpg) !important;;
   
     background-position:center;
-    background-size: initial;
+    background-size: cover;
   }
 .credit{
   font-size: 14px;

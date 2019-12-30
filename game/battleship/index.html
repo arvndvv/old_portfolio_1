@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BattleshipZone</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!--http://www.sousound.com/music/healing/healing_01.mp3-->
+    <div id="intro">
+      <h2 data-text="Battleship Zone"><span>Battleship Zone</span></h2>
+
+      <audio id="myAudio" src="music/intro.mp3" preload="auto"></audio>
+      <audio id="bgm" src="music/bgm.mp3" preload="auto"></audio>
+      <p id="start" onClick="togglePlay()">Start</p>
+      <p class="credit">
+        Developed By <a href="https://github.com/arvndvv">Aravind V V</a>
+      </p>
+      <p class="credit">
+        Inspired from
+        <a href="https://github.com/LearnTeachCode/Battleship-JavaScript/"
+          >LearningNerd</a
+        >
+      </p>
+    </div>
+    <div id="end">
+     
+      <p id="final">helo</p>
+      <p id="try" onClick="tryagain()">Try Again</p>
+    </div>
+    <header>
+      <h2 data-text="Battleship Zone"><span>Battleship Zone</span></h2>
+    </header>
+    <div id="container">
+      <div id="info">
+        <p>Click the board to fire at a ship. Try to sink every battleship!</p>
+        <p id="torpedo"></p>
+        <p id="carrier">Carrier - 5 hits</p>
+        <p id="battleship">Battleship - 4 hits</p>
+        <p id="destroyer">Destroyer - 3 hits</p>
+        <p id="submarine">Submarine - 3 hits</p>
+        <p id="patrol">Patrol Boat - 2 hits</p>
+        <p id="out"></p>
+      </div>
+      <div id="gameboard"></div>
+    </div>
+
+    <script type="text/javascript" src="battleship.js"></script>
+    </script>
+  </body>
+</html>

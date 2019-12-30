@@ -106,11 +106,9 @@ input {
 #info {
   background: linear-gradient(
     90deg,
-    #ff6d33,
-    #0f9ff3,
-    #8220f1,
-
-    #ff6d33
+    #42baff,
+    #973dfd,
+	  #42baff
   );
   opacity: .95;
   width: 33vw;

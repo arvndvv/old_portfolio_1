@@ -443,4 +443,28 @@ body{
   100%{
     background: url(img/mobheader1.jpeg);
   }
-}}
+}
+#info {
+  background: linear-gradient(
+    90deg,
+  
+    #42baff,
+    #973dfd,#42baff
+
+  
+  );
+  opacity: .95;
+  width: 70vw;
+  border-radius: 15px;
+  background-size: 300%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+   margin-top: 55%;
+  /*background-clip: text;*/
+  animation: bgt 12s linear infinite alternate;*/
+}
+#torpedo {
+  color: rgb(26, 243, 26);
+  font-size: 16px;
+}
+}

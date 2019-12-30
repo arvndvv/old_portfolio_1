@@ -8,7 +8,7 @@ function togglePlay() {
   myAudi.loop = true;
   myAudio.loop = true;
   var intro = document.getElementById("intro");
-  var main = document.getElementById("main");
+
   intro.style.opacity = 0;
   intro.style.visibility = "hidden";
  

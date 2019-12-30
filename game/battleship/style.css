@@ -460,12 +460,23 @@ body{
   background-size: 300%;
   padding-top: 20px;
   padding-bottom: 20px;
+	
    margin-top: 55%;
   /*background-clip: text;*/
-  animation: bgt 12s linear infinite alternate;*/
+	font-size:10px;
+  animation: bgt 12s linear infinite alternate;
 }
 #torpedo {
   color: rgb(26, 243, 26);
-  font-size: 16px;
+  font-size: 14px;
+}
+	#gameboard {
+  position: absolute;
+  margin: 0 auto 2em auto;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+  left: 2%;
+  top: 15%;
 }
 }
